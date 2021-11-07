@@ -1,20 +1,85 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color:  hsl(0, 100%, 74%) ;
-    background-image: url('./images/bg-intro-mobile.png');
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url("./images/bg-intro-mobile.png");
 }
 header,
 main {
-    color:#fff;
+  color: #fff;
 }
 
 header p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+  font-weight: 500;
+  font-size: 2em;
+}
+
+.free-trial {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.free-trial button {
+  font-size: 1.125em;
+  color: #e2e3ed;
+  background-color: #5d51a4;
+  width: 80%;
+  padding: 10px 0;
+  margin-top: 20px;
+  border: none;
+  text-align: center;
+}
+.free-trial span {
+  background-color: #5d51a4;
+  color: #e2e3ed;
+  font-weight: 800;
+}
+form {
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2em;
-    font-weight: 500;
-    font-size: 2em;
+    margin:12px 0;
 }
+fieldset {
+    background-color: #e2e3ed;
+    padding: 25px;
+    width: 75%;
+    border-radius: 3%;
+}
+input[type=text]
+ {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: .1em;
+    border-radius: 5%;
+    background-color:inherit;
+  }
+  input[type=button]{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    margin: .1em;
+ color:ivory;
+    background-color:#36cc97; 
+  }
+  .terms p {
+      background-color:#e2e3ed;
+      font-size: 10px;
+      padding: 1em;
+      color:rgb(41, 40, 39);
+  }
+  .terms p span {
+    background-color:#e2e3ed;
+      color:red
+  }
+  footer {
+      margin-top: 7em;
+  }
