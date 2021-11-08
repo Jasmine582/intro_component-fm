@@ -4,21 +4,26 @@
   font-family: "Poppins", sans-serif;
   background-color: hsl(0, 100%, 74%);
   background-image: url("./images/bg-intro-mobile.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 header,
 main {
   color: #fff;
+width: 100%;
 }
 
 header p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2em;
+  margin: 2em 0 1em 0;
   font-weight: 500;
   font-size: 2em;
 }
-
+.hero-p {
+  padding: 20px;
+}
 .free-trial {
   display: flex;
   flex-direction: row wrap;
@@ -35,6 +40,7 @@ header p {
   margin-top: 20px;
   border: none;
   text-align: center;
+  margin-right: 25px;
 }
 .free-trial span {
   background-color: #5d51a4;
@@ -42,44 +48,44 @@ header p {
   font-weight: 800;
 }
 form {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin:12px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 12px 0;
 }
 fieldset {
-    background-color: #e2e3ed;
-    padding: 25px;
-    width: 75%;
-    border-radius: 3%;
+  background-color: #e2e3ed;
+  padding: 25px;
+  width: 70%;
+  border-radius: 3%;
+  margin-right: 20px;
 }
-input[type=text]
- {
-    box-sizing: border-box;
-    width: 100%;
-    padding: 1em;
-    margin: .1em;
-    border-radius: 5%;
-    background-color:inherit;
-  }
-  input[type=button]{
-    box-sizing: border-box;
-    width: 100%;
-    padding: 1em;
-    margin: .1em;
- color:ivory;
-    background-color:#36cc97; 
-  }
-  .terms p {
-      background-color:#e2e3ed;
-      font-size: 10px;
-      padding: 1em;
-      color:rgb(41, 40, 39);
-  }
-  .terms p span {
-    background-color:#e2e3ed;
-      color:red
-  }
-  footer {
-      margin-top: 7em;
-  }
+input[type="text"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  margin: 0.1em;
+  border-radius: 5%;
+  background-color: inherit;
+}
+input[type="button"] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  margin: 0.1em;
+  color: ivory;
+  background-color: #36cc97;
+}
+.terms p {
+  background-color: #e2e3ed;
+  font-size: 10px;
+  padding: 1em;
+  color: rgb(41, 40, 39);
+}
+.terms p span {
+  background-color: #e2e3ed;
+  color: red;
+}
+footer {
+  margin-top: 7em;
+}
