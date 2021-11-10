@@ -89,3 +89,9 @@ input[type="button"] {
 footer {
   margin-top: 7em;
 }
+
+@media (min-width:1024px) {
+  *{
+    max-width: 960px;
+  }
+}
