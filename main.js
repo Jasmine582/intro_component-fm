@@ -1,0 +1,1 @@
+const claimButton = document.querySelector("button");
