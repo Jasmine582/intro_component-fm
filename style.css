@@ -10,7 +10,7 @@
 header,
 main {
   color: #fff;
-width: 100%;
+  width: 100%;
 }
 
 header p {
@@ -90,8 +90,15 @@ footer {
   margin-top: 7em;
 }
 
-@media (min-width:1024px) {
-  *{
+@media (min-width: 1024px) {
+  * {
     max-width: 960px;
+    background-image: url("/images/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: fill;
+  }
+  body {
+    display: grid;
+    grid-row: 12px;
   }
 }
